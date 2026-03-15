@@ -1,0 +1,58 @@
+backend:
+  name: github
+  repo: YOUR_GITHUB_USERNAME/puyupacha-website-2026
+  branch: main
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+i18n:
+  structure: single_file
+  locales: [es, en]
+  default_locale: es
+
+collections:
+  - name: pages
+    label: Pages
+    files:
+      - name: home
+        label: Home Page
+        file: content/pages/home.json
+        i18n: true
+        fields:
+          - label: Navigation Links
+            name: navigation
+            widget: list
+            i18n: true
+            fields:
+              - { label: "Link Text", name: text, widget: string }
+              - { label: "Anchor ID (href)", name: href, widget: string }
+
+          - label: Hero Section
+            name: hero
+            widget: object
+            i18n: true
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Background Image, name: backgroundImage, widget: image }
+              - label: CTA Buttons
+                name: buttons
+                widget: list
+                max: 2
+                min: 2
+                fields:
+                  - { label: "Button Text", name: text, widget: string }
+                  - { label: "Button Link (href)", name: href, widget: string }
+
+          - label: Content Sections
+            name: sections
+            widget: list
+            i18n: true
+            fields:
+              - { label: Image, name: image, widget: image }
+              - { label: Category, name: category, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+
+local_backend: true

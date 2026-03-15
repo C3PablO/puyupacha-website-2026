@@ -1,0 +1,64 @@
+{
+  "navigation": {
+    "es": [
+      { "text": "Inicio", "href": "#hero" },
+      { "text": "Nosotros", "href": "#sections" },
+      { "text": "Contacto", "href": "#contact" }
+    ],
+    "en": [
+      { "text": "Home", "href": "#hero" },
+      { "text": "About", "href": "#sections" },
+      { "text": "Contact", "href": "#contact" }
+    ]
+  },
+  "hero": {
+    "es": {
+      "title": "Bienvenidos a Puyupacha",
+      "description": "Una experiencia única en los Andes. Descubre la magia de nuestras montañas y la riqueza de nuestra cultura.",
+      "backgroundImage": "/uploads/hero-bg.jpg",
+      "buttons": [
+        { "text": "Conocer más", "href": "#sections" },
+        { "text": "Contáctanos", "href": "#contact" }
+      ]
+    },
+    "en": {
+      "title": "Welcome to Puyupacha",
+      "description": "A unique experience in the Andes. Discover the magic of our mountains and the richness of our culture.",
+      "backgroundImage": "/uploads/hero-bg.jpg",
+      "buttons": [
+        { "text": "Learn more", "href": "#sections" },
+        { "text": "Contact us", "href": "#contact" }
+      ]
+    }
+  },
+  "sections": {
+    "es": [
+      {
+        "image": "/uploads/section-1.jpg",
+        "category": "Naturaleza",
+        "title": "La Montaña",
+        "description": "Explora los paisajes únicos de los Andes peruanos. Senderos que te llevan a través de valles y cumbres espectaculares."
+      },
+      {
+        "image": "/uploads/section-2.jpg",
+        "category": "Cultura",
+        "title": "Tradiciones Vivas",
+        "description": "Conoce las tradiciones ancestrales que han perdurado por siglos. Una cultura rica que se mantiene viva en cada comunidad."
+      }
+    ],
+    "en": [
+      {
+        "image": "/uploads/section-1.jpg",
+        "category": "Nature",
+        "title": "The Mountain",
+        "description": "Explore the unique landscapes of the Peruvian Andes. Trails that take you through spectacular valleys and peaks."
+      },
+      {
+        "image": "/uploads/section-2.jpg",
+        "category": "Culture",
+        "title": "Living Traditions",
+        "description": "Discover the ancestral traditions that have endured for centuries. A rich culture that stays alive in every community."
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "title": "Puyupacha — A Unique Experience in the Andes",
+    "description": "Discover the magic of the Andean mountains and the richness of our culture. Nature, traditions, and adventure in one place."
+  },
+  "nav": {
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "contact": {
+    "title": "Contact",
+    "nameLabel": "Name",
+    "namePlaceholder": "Your name",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "you@email.com",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Write your message here...",
+    "submitButton": "Send message",
+    "successMessage": "Message sent successfully!",
+    "validation": {
+      "nameRequired": "Name is required",
+      "nameTooShort": "Name must be at least 2 characters",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Enter a valid email address",
+      "messageRequired": "Message is required",
+      "messageTooShort": "Message must be at least 10 characters"
+    }
+  },
+  "language": {
+    "switchTo": "Español"
+  }
+}
